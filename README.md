@@ -420,19 +420,6 @@ Deadlines · Penalties · Entities · Summary
 
 **Selected: Random Forest** — chosen for its interpretability, robustness to overfitting on small datasets, and ability to provide per-class probability scores (confidence %), which power the dashboard's confidence display. SVM does not natively support probability calibration without additional wrapping.
 
-### Classification Report — Final Model (Random Forest)
-
-```
-                  Precision    Recall    F1-Score    Support
-
-INFO                 0.60       0.75       0.67         4
-OPERATIONAL          0.89       0.92       0.90        36
-URGENT               0.67       0.50       0.57         8
-
-Accuracy                                   0.83        48
-Macro Avg            0.72       0.72       0.71        48
-Weighted Avg         0.83       0.83       0.83        48
-```
 
 **Reading the results:**
 - ✅ **OPERATIONAL (F1: 0.90)** — model learned this class extremely well, makes sense given 175 training examples
