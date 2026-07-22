@@ -145,16 +145,14 @@ Deadlines · Penalties · Entities · Summary
 ```
                   Precision    Recall    F1-Score    Support
 
-INFO                 0.xx       0.xx       0.xx        x
-OPERATIONAL          0.xx       0.xx       0.xx        x
-URGENT               0.xx       0.xx       0.xx        x
+INFO                 0.60       0.75       0.67         4
+OPERATIONAL          0.89       0.92       0.90        36
+URGENT               0.67       0.50       0.57         8
 
-Accuracy                                   0.875       48
-Macro Avg            0.xx       0.xx       0.81        48
-Weighted Avg         0.xx       0.xx       0.87        48
+Accuracy                                   0.83        48
+Macro Avg            0.72       0.72       0.71        48
+Weighted Avg         0.83       0.83       0.83        48
 ```
-
-> *Fill in your actual per-class metrics from your evaluation notebook.*
 
 ---
 
