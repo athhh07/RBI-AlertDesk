@@ -8,7 +8,7 @@
 
 <br/><br/>
 
-# 🏦 RBI Alert Desk
+# 🏦 RBI(Reserve Bank of India) Alert Desk
 
 ### AI-Powered RBI Circular Intelligence & Compliance Assistant
 
